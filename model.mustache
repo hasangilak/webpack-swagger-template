@@ -1,0 +1,9 @@
+{{>licenseInfo}}
+    // CommonJS-like environments that support module.exports, like Node.
+    const ApiClient = require('../ApiClient')
+    {{#imports}}, {{import}} = require('./{{import}}'){{/imports}}
+
+
+{{#models}}{{#model}}
+{{#isEnum}}{{>partial_model_enum_class}}{{/isEnum}}{{^isEnum}}{{>partial_model_generic}}{{/isEnum}}
+{{/model}}{{/models}}
