@@ -1,5 +1,4 @@
 use this shell script to simply build your code on top of yaml or json.
-check the shell variables first.
 
 
 #webpack config
@@ -18,7 +17,7 @@ npm install --save superagent
 ```
 
 
-
+use this shell to run the generator. check the shell variables first.
 ```shell
 #!/bin/sh
 
