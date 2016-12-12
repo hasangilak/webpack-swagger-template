@@ -1,6 +1,24 @@
 use this shell script to simply build your code on top of yaml or json.
 check the shell variables first.
 
+
+#webpack config
+add this to your webpack config
+
+```javascript
+node: {
+    fs: "empty"
+}
+```
+
+#package dependency
+install superagent
+```shell
+npm install --save superagent
+```
+
+
+
 ```shell
 #!/bin/sh
 
